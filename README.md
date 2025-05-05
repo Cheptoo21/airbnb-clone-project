@@ -106,6 +106,24 @@ A Booking is linked to one Property and one User.
 
 A Payment is associated with one Booking.
 
+# Feature Breakdown
+1. User Management
+This feature allows users to register, log in, and manage their profile. It ensures secure authentication and maintains user roles such as host or guest to control access to different functionalities.
+
+2. Property Management
+Hosts can list new properties by adding details like title, description, location, and pricing. They can also edit or remove their listings, giving them full control over the availability of their spaces.
+
+3. Booking System
+Guests can browse available properties and make bookings for specific dates. This feature handles date validation, availability checks, and links each booking to the correct user and property.
+
+4. Review System
+Guests can leave reviews and ratings for properties they have booked. This helps maintain quality and trust in the platform by providing feedback to hosts and other users.
+
+5. Payment Integration
+Secure payment processing is implemented to handle booking payments. Users can pay using supported methods, and each transaction is logged for record-keeping and dispute resolution.
+
+
+
 
 
 
