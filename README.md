@@ -11,7 +11,7 @@ Review System: Allow users to leave reviews and ratings for properties.
 Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 # Technology Stack
-Django: A high-level Python web framework used for building a RESTful API.
+Django: A high-level Python web framework used to build a RESTful API.
 
 Django REST Framework: Provides tools for creating and managing RESTful APIs.
 
