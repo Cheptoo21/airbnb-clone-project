@@ -4,6 +4,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 # Project Goals
 User Management: Implement a secure system for user registration, authentication, and profile management.
+
 Property Management: Develop property listing creation, updates, and retrieval features.
 Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
 Payment Processing: Integrate a payment system to handle transactions and record payment details.
