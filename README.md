@@ -6,9 +6,13 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 User Management: Implement a secure system for user registration, authentication, and profile management.
 
 Property Management: Develop property listing creation, updates, and retrieval features.
+
 Booking System: Create a booking mechanism for users to reserve properties and manage booking details.
+
 Payment Processing: Integrate a payment system to handle transactions and record payment details.
+
 Review System: Allow users to leave reviews and ratings for properties.
+
 Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 # Technology Stack
@@ -122,7 +126,30 @@ Guests can leave reviews and ratings for properties they have booked. This helps
 5. Payment Integration
 Secure payment processing is implemented to handle booking payments. Users can pay using supported methods, and each transaction is logged for record-keeping and dispute resolution.
 
+# API Security
+Securing backend APIs is critical to protect sensitive data, ensure user trust, and maintain the integrity of the system. The following key security measures will be implemented:
 
+1. Authentication
+Authentication ensures that only registered users can access the system by verifying their identity using secure login credentials or tokens (e.g., JWT). This prevents unauthorized access and protects user accounts from misuse.
+
+2. Authorization
+Authorization determines what actions a user can perform based on their role (e.g., host vs. guest). It ensures that users can only access or modify resources they own or are permitted to interact with (e.g., a host editing their properties).
+
+3. Rate Limiting
+Rate limiting restricts the number of requests a user or IP can make in a given time. This helps prevent abuse, brute-force attacks, and denial-of-service (DoS) scenarios, maintaining the system’s performance and availability.
+
+4. Input Validation & Sanitization
+All API inputs will be validated and sanitized to prevent injection attacks, such as SQL or script injections. This is vital for defending against malicious payloads that could compromise the backend.
+
+5. HTTPS Encryption
+All communication with the API will be encrypted using HTTPS to prevent man-in-the-middle (MITM) attacks. This protects data such as login credentials and payment information while in transit.
+
+# Why Security Matters
+Protecting User Data: Personal information like email addresses and passwords must be securely stored and transmitted to maintain privacy and comply with data protection regulations.
+
+Securing Payments: Payment transactions involve sensitive financial data and must be protected from theft and fraud through encryption and secure processing.
+
+Maintaining Trust: A secure API fosters user trust and ensures platform reliability. A breach could damage reputation and lead to legal or financial consequences.
 
 
 
